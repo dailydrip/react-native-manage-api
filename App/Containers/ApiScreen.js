@@ -59,8 +59,8 @@ class ApiScreen extends React.Component {
     );
   }
 }
+
 const mapStateToProps = state => {
-  debugger;
   return {
     avatar: state.github.avatar
   };
